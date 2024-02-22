@@ -1,0 +1,170 @@
+body{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: #F7F8F9;
+}
+.container{
+ height: 85%;
+ width: 83%;
+}
+.topnav{
+ height: 40px;
+ width: 100%;
+ display: flex;
+ flex-direction: row;
+ position: sticky;
+}
+.nike{
+ height: 32px;
+ width: 64;
+}
+#gap1{
+ width: 34.5%;
+}
+#gap2{
+ display: flex;
+ width: 100%;
+ height: 40px;
+}
+.navs{
+ height: 40;
+ width: 786;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+ font-family: "Montserrat", sans-serif;
+ font-size: 16px;
+ font-weight: 500;
+}
+#searchicon{
+ position: absolute;
+ padding-top: 12px;
+ padding-left: 20px;
+}
+#searchtext{
+ position: absolute;
+ padding-top: 12px;
+ padding-left: 50px;
+ font-family: "Montserrat", sans-serif;
+ font-size: 16px;
+ font-weight: 500;
+ color: #64748B;
+}
+input{
+ background-color: #F7F8F9;
+ border-radius: 29px;
+ width: 240px;
+ height: 40px;
+ border: 1px solid #E7EAEE;
+}
+#opts{
+ width: 80px;
+ height: 24px;
+ display: flex;
+ justify-content: space-between;
+}
+.filterRow{
+ display: flex;
+ flex-direction: row;
+ font: 600;
+ font-size: 24px;
+ font-family: "Montserrat", sans-serif;
+ justify-content: space-between;
+}
+#pgcontentinfo{
+ display: flex;
+ flex-direction: row;
+}
+#item{
+ font: 600;
+ font-size: 24px;
+color: #64748B;
+ font-family: "Montserrat", sans-serif;
+}
+#filter{
+ width: 121px;
+ height: 24px;
+ font-weight: 500;
+ font-size: 16px;
+ font-family: "Montserrat", sans-serif;
+ color: black;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+}
+.shoeContainer{
+  position: relative;
+ margin-top: 30px;
+ width: 285px;
+ height: 352px;
+ background-color: #FFFF;
+ border-radius: 20px;
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+ align-items: center;
+ border: 1.5px solid transparent;
+ transition-duration: 2s;
+}
+.shoeContainer:hover{
+  border: 1.5px solid #6183E4;
+ box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+}
+.list{
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ align-items: flex-start
+}
+.likeicon{
+ position: absolute;
+ padding-top: 25px;
+ padding-left: 220px;
+}
+.shoePic{
+ margin-top: 10px;
+ width: 261px;
+ height: 192px;
+ border-radius: 12px;
+ object-fit: cover;
+}
+.Info{
+ margin-top: 10px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ width: 261px;
+ height: 112px;
+ font-weight: 600;
+ font-size: 16px;
+ font-family: "Montserrat", sans-serif;
+ color: black;
+ display: flex;
+}
+.about{
+ height: 72px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+}
+.colorpicker3{
+ width: 88px;
+ height: 24px;
+}
+.colorpicker2{
+ width: 56px;
+ height: 24px;
+}
+.colorpicker1{
+ width: 24px;
+ height: 24px;
+}
+.update{
+ font-size: 12px;
+ font-family: "Montserrat", sans-serif;
+ color: #DC2626;
+}
